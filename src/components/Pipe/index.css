@@ -1,0 +1,27 @@
+.pipe-wrapper{
+    position: absolute;
+}
+.pipe{
+    position: relative;
+    height: 500px;
+    transition: 99ms;
+    width: 100px;
+}
+.top-pipe{
+    background-image: url("../../images/pipe-bottom.png");
+    background-size: 105px 405px;
+    background-repeat: no-repeat;
+    width: 105px;
+    position: absolute;
+    top: 0;
+    transform: rotate(180deg);
+}
+.bottom-pipe{
+    background-image: url("../../images/pipe-bottom.png");
+    background-size: 105px 405px;
+    /* background-position: bottom; */
+    background-repeat: no-repeat;
+    width: 105px;
+    position: absolute;
+    bottom: 0;
+}

@@ -1,0 +1,8 @@
+.grounds
+{
+    height: 60px;
+    width: 100%;
+    background-image:url("../../images/ground.png");
+    position:absolute;
+    bottom: -60px;
+}
