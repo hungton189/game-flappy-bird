@@ -1,0 +1,14 @@
+.bird-wrapper{
+    display: inline;
+    position: absolute;
+    left: 180px;
+    transform: rotate(-25deg);
+    transition: .4s;
+}
+.bird{
+    background-image: url("../../images/bird.png");
+    background-repeat: no-repeat;
+    background-size: 60px 60px;
+    width: 60px;
+    height: 60px;
+}

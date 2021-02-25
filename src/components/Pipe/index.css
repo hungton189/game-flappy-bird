@@ -1,10 +1,10 @@
 .pipe-wrapper{
     position: absolute;
+    transition: .3s;
 }
 .pipe{
     position: relative;
     height: 500px;
-    transition: 99ms;
     width: 100px;
 }
 .top-pipe{

@@ -12,10 +12,10 @@ const pipeReducer = (state = initialState,action) =>{
             return [...state,newPipe]
         case types.UPDATE_PIPE:
             return state.map((item, index)=>{
-                return {...item,distance_y:item.distance_y-9}
+                return {...item,distance_y:item.distance_y-10}
             })
         default:
-            return [];
+            return state;
     }
 }
 export default pipeReducer;
