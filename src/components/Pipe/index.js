@@ -4,7 +4,7 @@ const Pipe = ({height,left})=>{
     return <div className="pipe-wrapper" style={{left: `${left}px`}}>
         <div className="pipe">
             <div className="top-pipe" style={{height:`${height}px`}}></div>
-            <div className="bottom-pipe" style={{height:`${500-100-height}px`}}></div>
+            <div className="bottom-pipe" style={{height:`${500-120-height}px`}}></div>
         </div>
     </div>
 }

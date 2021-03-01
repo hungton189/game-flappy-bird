@@ -24,3 +24,18 @@ export const updateGround = ()=> {
         type:types.UPDATE_GROUND
     }
 }
+export const startGame = ()=> {
+    return {
+        type:types.START_GAME
+    }
+}
+export const gameOver = ()=> {
+    return {
+        type:types.GAMEOVER
+    }
+}
+export const prepare = ()=> {
+    return {
+        type:types.PREPARE
+    }
+}
