@@ -1,6 +1,6 @@
-# Getting Started with Create React App
+# Play Game
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+https://flappy-bird-8891c.web.app/
 
 ## Available Scripts
 
