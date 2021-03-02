@@ -39,3 +39,8 @@ export const prepare = ()=> {
         type:types.PREPARE
     }
 }
+export const increaseScore = ()=> {
+    return {
+        type:types.INCREASE_SCORE
+    }
+}

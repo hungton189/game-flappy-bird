@@ -1,0 +1,6 @@
+.score{
+    position: absolute;
+    left: 220px;
+    font-size:80px;
+    color:rgb(77, 85, 95);
+}

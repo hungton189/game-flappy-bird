@@ -78,6 +78,9 @@ const startGame = () => {
             updatePipeLoop = setInterval(()=>{
                 dispatch(actions.updatePipe())
                 dispatch(actions.updateGround())
+                const {pipes,score} = getState();
+                const rs = pipes.filter(item => item.distance_y + 105 < 180);
+                if(rs.length > score) dispatch(actions.increaseScore())
             },70)
             checkLoop =  setInterval(() => {
                 check(dispatch,getState)
